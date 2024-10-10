@@ -7,7 +7,7 @@
 
 ### 1. React
 - JavaScript-библиотека для создания пользовательских интерфейсов.
-- Официальная документация: [React Docs](https://ru.reactjs.org/docs/getting-started.html)
+- Официальная документация: [React Docs]([https://ru.reactjs.org/docs/getting-started.html](https://react.dev/))
 
 ### 2. Redux Toolkit
 - Официальный рекомендованный способ работы с Redux.
