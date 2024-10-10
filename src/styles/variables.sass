@@ -1,0 +1,54 @@
+@font-face
+    font-family: 'main'
+    src: url(../fonts/Muller.ttf)
+
+$main-color: #30324B
+$completed-color: #6AD400
+$not-completed-color: #FF2F2F
+$disabled-color: #A4A4A4
+
+@mixin Text
+    font-family: 'main'
+    font-weight: 400
+    font-size: 16px
+    color: $main-color
+    @media ( min-width: 0px ) and ( max-width: 425px )
+        font-size: 14px
+
+@mixin Button($color)
+    @include Text
+    cursor: pointer
+    margin-right: 15px
+    margin-bottom: 15px
+    padding: 10px 15px
+    background-color: transparent
+    border: solid 2px $color
+    border-radius: 10px
+    color: $color
+    transition: all 0.3s ease
+    &:hover
+        background-color: lighten($color, 35%)
+        color: $color
+    &:focus
+        background-color: $color
+        color: #fff
+        border-color: lighten($color, 35%)
+    &.active
+        background-color: $color
+        color: #fff
+        border-color: $color
+    &:disabled
+        background-color: #F2F3F5
+        color: #DEDEDE
+        border-color: #F2F3F5
+        cursor: not-allowed
+
+::-webkit-scrollbar
+    width: 10px
+
+::-webkit-scrollbar-track
+    background-color: $disabled-color
+
+::-webkit-scrollbar-thumb
+    background-color: $main-color
+    border-radius: 10px

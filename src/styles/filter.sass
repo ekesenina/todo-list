@@ -1,0 +1,16 @@
+@import 'variables'
+
+.app
+    .filter
+        align-self: flex-start
+        margin-bottom: 20px
+        display: flex
+        flex-wrap: wrap
+        &__btn-all
+            @include Button($main-color)
+            &:hover
+                color: #fff
+        &__btn-completed
+            @include Button($completed-color)
+        &__btn-not-completed
+            @include Button($not-completed-color)
