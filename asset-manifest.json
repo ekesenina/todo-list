@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.2e9069e4.css",
+    "main.js": "/todo-list/static/js/main.eba4b470.js",
+    "static/media/Muller.ttf": "/todo-list/static/media/Muller.3d5ff50903b5a6784d3d.ttf",
+    "static/media/delete.svg": "/todo-list/static/media/delete.07e51a7716bceaf75a79.svg",
+    "static/media/deleteHover.svg": "/todo-list/static/media/deleteHover.0860b5b123ef5434e4e9.svg",
+    "static/media/edit.svg": "/todo-list/static/media/edit.a2a7f33ccb09fcaaadf6.svg",
+    "static/media/editActive.svg": "/todo-list/static/media/editActive.f982796a12a369ef5de3.svg",
+    "static/media/editDisabled.svg": "/todo-list/static/media/editDisabled.55fc97d2611e1322c0d7.svg",
+    "static/media/editHover.svg": "/todo-list/static/media/editHover.0d5825d1ab5405bf0bba.svg",
+    "index.html": "/todo-list/index.html",
+    "static/media/add.svg": "/todo-list/static/media/add.05991273cfbb941fd3edb4509fb59e5e.svg",
+    "main.2e9069e4.css.map": "/todo-list/static/css/main.2e9069e4.css.map",
+    "main.eba4b470.js.map": "/todo-list/static/js/main.eba4b470.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e9069e4.css",
+    "static/js/main.eba4b470.js"
+  ]
+}
